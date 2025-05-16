@@ -9,4 +9,5 @@ type CreateNFTRequest struct {
 	ProjectName    string  `json:"projectName" binding:"required"`
 	ProjectOwner   string  `json:"projectOwner" binding:"required"`
 	Note           string  `json:"note"`
+	Metadata       []byte  `json:"metadata,omitempty"`
 }

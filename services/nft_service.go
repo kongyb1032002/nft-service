@@ -45,6 +45,7 @@ func (s *nftService) IssueDonationNFT(req dtos.CreateNFTRequest) (*dtos.Donation
 			DonationAmount: req.DonationAmount,
 			ProjectOwner:   req.ProjectOwner,
 			Note:           req.Note,
+			Metadata:       req.Metadata,
 		},
 	}
 

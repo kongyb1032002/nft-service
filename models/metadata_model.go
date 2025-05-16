@@ -13,4 +13,5 @@ type MetadataData struct {
 	DonationAmount float64 `json:"donationAmount"`
 	ProjectOwner   string  `json:"projectOwner"`
 	Note           string  `json:"note"`
+	Metadata       []byte  `json:"metadata,omitempty"`
 }
